@@ -1,0 +1,43 @@
+.list-table-format {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 1fr 1fr 0.5fr 0.4fr;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 15px;
+  border: 1px solid #cacaca;
+  font-size: 13px;
+}
+
+.list-table-format.title {
+  background-color: #f9f9f9;
+}
+.list-table-format img {
+  width: 50px;
+}
+.edit-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.edit-button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+  .list-table-format {
+    grid-template-columns: 1fr 3fr 1fr;
+    gap: 15px;
+  }
+  .list-table-format.title {
+    display: none;
+  }
+  .edit-button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}

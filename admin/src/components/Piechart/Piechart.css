@@ -1,0 +1,36 @@
+.dashboardd {
+  padding: 0px;
+  margin: 20px;
+}
+
+.statss {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.chartt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+@media (max-width: 600px) {
+  .chartt {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .statss {
+    flex-direction: column;
+    align-items: center;
+  }
+}
