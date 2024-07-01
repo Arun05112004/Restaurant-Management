@@ -49,7 +49,8 @@ const PlaceOrder = () => {
       const { session_url } = response.data;
       window.location.replace(session_url);
     } else {
-      alert("Error");
+      alert("Order Placed Successfully!!");
+      navigate("/myorders");
     }
   };
 
@@ -168,7 +169,7 @@ const PlaceOrder = () => {
               </b>
             </div>
           </div>
-          <button type="submit">PROCEED TO PAYMENT</button>
+          <button type="submit">ORDER NOW</button>
         </div>
       </div>
     </form>

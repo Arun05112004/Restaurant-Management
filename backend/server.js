@@ -12,7 +12,7 @@ import dashboardRouter from "./routes/dashboard.js";
 
 const app = express();
 
-const port = 4000;
+const port = 4001;
 
 app.use(express.json());
 app.use(cors());
